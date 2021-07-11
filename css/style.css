@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: linear-gradient(rgb(251 80 80 / 59%), rgba(207, 63, 63, 0.74)), url('/images/bg-intro-desktop.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+
+}
+/*Container*/
+.container{
+   /* border: 2px solid red;*/
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    margin-top: 76px;
+    overflow: hidden;
+    
+}
+.item1{
+    /*border: 2px solid blue;*/
+    flex:50%;
+    justify-content: center;
+    padding: 110px;
+}
+.item2{ 
+    /*border: solid green;*/
+    flex:50%;
+}
+#box{
+    /*border: 2px solid red;*/
+    width: 85%;
+    height:300px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(63 63 63 / 30%);
+}
+#try button{
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 80%;
+    height: 43px;
+    color: white;
+    background-color: #824eb1;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px rgb(63 63 63 / 30%);
+}
+.form{
+    margin-left: 40px;
+    margin-top: 40px;
+    
+}
+input{
+    border-radius: 5px;
+    border: 2px solid #80808082;
+}
+.ferror{
+    color:red;
+    font-size: 12px;
+    margin-left: 40px;
+}
+
+.name{
+    width: 80%;
+    height: 34px;
+    margin-left:35px;
+    margin-top: 10px;
+
+}
+.lname{
+    width: 80%;
+    height: 34px;
+    margin-left:35px;
+    margin-top: 5px    
+}
+.email{
+    width: 80%;
+    height: 34px;
+    margin-left:35px;
+    margin-top: 5px 
+
+}
+.pass-word{
+    width: 80%;
+    height: 34px;
+    margin-left:35px;
+    margin-top: 5px 
+}
+
+.claim{
+
+    width: 80%;
+    height: 34px;
+    margin-left:35px;
+    margin-top: 5px;
+    background-color: rgb(5, 201, 103);
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    box-shadow: 3px 3px rgb(63 63 63 / 30%);
+}
+
+#box p{
+    font-size: 11px;
+    margin-left: 43px;
+    color: black;
+}
+#box p a{
+    color: rgb(216, 22, 54);
+}
+@media (max-width:800px) {
+    .container{
+        flex-direction:column;
+        height: 100vh;
+        margin-top:0px;
+        overflow: auto;
+    }
+    .form{
+        margin-top:14px;
+     
+    }
+}
+@media(max-width:500px) {
+    .container{
+        padding:30px;
+
+    }
+}
