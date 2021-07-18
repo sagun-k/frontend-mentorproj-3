@@ -4,7 +4,7 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-image: linear-gradient(rgb(251 80 80 / 59%), rgba(207, 63, 63, 0.74)), url('/images/bg-intro-desktop.png');
+    background-image: linear-gradient(rgb(251 80 80 / 59%), rgba(207, 63, 63, 0.74)), url('./images/bg-intro-desktop.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
